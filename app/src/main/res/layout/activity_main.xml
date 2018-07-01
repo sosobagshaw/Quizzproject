@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 1) Which of these are mamals"
+        android:textSize="20sp"
+        android:background="@drawable/questions_corners"
+        android:textColor="#ffffff"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textAlignment="center"
+       />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/answers_coner"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+        <CheckBox
+            android:id="@+id/oneA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Dog"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:id="@+id/oneB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Chicken"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:id="@+id/oneC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Snake"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:id="@+id/oneD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Whale"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2) Which of the following items are necessary for fire to be created"
+        android:textSize="20sp"
+        android:background="@drawable/questions_corners"
+        android:textColor="#ffffff"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/answers_coner"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+        <CheckBox
+            android:id="@+id/twoA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Spark"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:id="@+id/twoB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Fuel"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:id="@+id/twoC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Light"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:id="@+id/twoD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Air"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3) Which of the steps occure in these formation of rain"
+        android:textSize="20sp"
+        android:background="@drawable/questions_corners"
+        android:textColor="#ffffff"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/answers_coner"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+        <CheckBox
+            android:id="@+id/threeA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Evaporation"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:id="@+id/threeB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Precipitation"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:id="@+id/threeC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Condensation"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:id="@+id/threeD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Germination"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4) Which of the following are African country"
+        android:textSize="20sp"
+        android:background="@drawable/questions_corners"
+        android:textColor="#ffffff"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/answers_coner"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+        <CheckBox
+            android:id="@+id/fourA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Mexico"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:id="@+id/fourB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Nigeria"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:id="@+id/fourC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Mali"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:id="@+id/fourD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="South Africa"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5) Which of these compuonds has the Chemical formula H2O"
+        android:textSize="20sp"
+        android:background="@drawable/questions_corners"
+        android:textColor="#ffffff"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/answers_coner"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/fiveA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Caustic Soda"
+                android:textSize="18sp"
+                />
+            <RadioButton  android:id="@+id/fiveB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ethanol"
+                android:textSize="18sp"
+                />
+            <RadioButton android:id="@+id/fiveC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Water"
+                android:textSize="18sp"
+                />
+            <RadioButton android:id="@+id/fiveD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salt"
+                android:textSize="18sp"
+                />
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6) What is the capital of Nigeria"
+        android:textSize="20sp"
+        android:background="@drawable/questions_corners"
+        android:textColor="#ffffff"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/answers_coner"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <RadioGroup
+            android:id="@+id/radioGroup2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/sixA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rivers state"
+                android:textSize="18sp"
+                />
+            <RadioButton android:id="@+id/sixB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abuja"
+                android:textSize="18sp"
+                />
+            <RadioButton android:id="@+id/sixC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kano"
+                android:textSize="18sp"
+                />
+            <RadioButton android:id="@+id/sixD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lagos"
+                android:textSize="18sp"
+                />
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7) What process do plants use to make their food"
+        android:textSize="20sp"
+        android:background="@drawable/questions_corners"
+        android:textColor="#ffffff"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/answers_coner"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <RadioGroup
+            android:id="@+id/radioGroup3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/sevenA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chlorophil"
+                android:textSize="18sp"
+                />
+            <RadioButton android:id="@+id/sevenB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Creation"
+                android:textSize="18sp"
+                />
+            <RadioButton android:id="@+id/sevenC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Building"
+                android:textSize="18sp"
+                />
+            <RadioButton android:id="@+id/sevenD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photosynthesis"
+                android:textSize="18sp"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8) Biology is the study of Plants and"
+        android:textSize="20sp"
+        android:background="@drawable/questions_corners"
+        android:textColor="#ffffff"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/answers_coner"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+        <EditText
+            android:id="@+id/text_answer_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:hint="Answer should be in plural form"
+            android:textSize="20sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textAlignment="center"
+            android:textColor="#673AB7"/>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9) What is the opposite of Hot "
+        android:textSize="20sp"
+        android:background="@drawable/questions_corners"
+        android:textColor="#ffffff"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/answers_coner"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+        <EditText
+            android:id="@+id/text_answer_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:hint="Winter"
+            android:textSize="20sp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#673AB7"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10) The liquid that flows in the vains of animals and humans is called"
+        android:textSize="20sp"
+        android:background="@drawable/questions_corners"
+        android:textColor="#ffffff"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/answers_coner"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+        <EditText
+            android:id="@+id/text_answer_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:hint="It is red"
+            android:textSize="20sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textAlignment="center"
+            android:textColor="#673AB7"
+
+            />
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:background="#673AB7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:onClick="submitResult"/>
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="#673AB7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Reset"
+        android:textColor="#ffffff"
+        android:onClick="resetQuiz"/>
+
+</LinearLayout>
+
+</ScrollView>
